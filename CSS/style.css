@@ -89,8 +89,7 @@ nav li {
 }
 
 .side-menu {
- width: 35%;
- height:100%;
+ width: 30%;
  background-color: rgb(231, 230, 215);
  padding: 0%;
  margin: 0%;
@@ -112,7 +111,7 @@ border-top-left-radius: 3%
 }
 
 .my-skills{
-  height: 100px;
+  height: 200px;
   border-width: 0 4px 0 0;
   border-color: black;
   border-style: solid;
@@ -123,7 +122,7 @@ border-top-left-radius: 3%
 }
 
 .my-work{
-  height: 600px;
+  height: 1050px;
   border-width: 0 4px 0 0;
   border-color: black;
   border-style: solid;
@@ -154,11 +153,9 @@ border-top-left-radius: 3%
 .main-section{
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   background-color: rgba(178, 217, 188, 0.456);
-  width: 100%;
   margin-top: 11px;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  
+  
 }
 
 .main-text{
@@ -168,16 +165,83 @@ border-top-left-radius: 3%
   display: flex;
   text-align: justify;
   font-family: cursive;
-  margin :30px 30px 20px 10px
-
-
+  margin :30px 30px 20px 10px;
+  height: 230px;
+  align-items: center;
+ 
 }
 
+
+.skills-image {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+}
+
+.skills-icon{
   
+  text-align: center;
+  margin-left: 20px;
+  margin-right:20px;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.row{
+  display: flex;
+  margin: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  height: 200px;
+  width: 100%;
+}
+
+h1{
+  width: 100%;
+  font-size: 30px;
+  text-align: center;
+}
+
+.big-project {
+  width: 96%;
+  height: 450px;
+  padding: 20px;
+
+}
+ 
+.projects{
+  width: 48%;
+  height: 200px;
+  margin: 0;
+  padding:5px;
+}
+footer{
+  width:100%
+}
+figure{
+  margin :20px
+}
 
 
+.contact-info{
+  display: flex; 
+  padding: 10px;
+}
 
-
-
+.contact-me{
+  padding:10px;
+  padding-bottom: 2px;
+  margin: 25px;
+  border-bottom: black;
+  border-style: solid;
+  border-width:0 0 3px 0;
+  list-style: none;
+  width:fit-content
+}
 
 
