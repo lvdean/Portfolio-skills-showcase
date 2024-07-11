@@ -1,5 +1,6 @@
-body{
+*{
   margin: 0px;
+  padding:0px
 }
 #stlucia {
   content: ' ';
@@ -31,6 +32,7 @@ header {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  text-decoration: none;
 }
 nav {
   text-align: end;
@@ -42,14 +44,16 @@ nav {
   flex-wrap: wrap;
   justify-content: flex-end;
   align-items: center;
+  
 }
 
-nav li {
+nav ul li {
   margin: 10px;
   border-bottom: black;
   border-style: solid;
   border-width:0 0 2px 0;
   flex-wrap: wrap;
+  text-decoration: none;
 }
 
 #name{
@@ -89,12 +93,12 @@ nav li {
 }
 
 .side-menu {
- width: 30%;
+ width: 40%;
  background-color: rgb(231, 230, 215);
  padding: 0%;
  margin: 0%;
  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-font-size: 40px;
+font-size: 150%;
 position: relative;
 border-top-right-radius: 3%;
 border-top-left-radius: 3%
@@ -145,7 +149,7 @@ border-top-left-radius: 3%
   width: 140px;
   height: 140px;
   border-radius: 50%;
-  border: 4px solid rgb(178, 217, 188);
+  border: 4px solid  rgb(133, 66, 66);
   margin: 10px
 
 }
@@ -207,22 +211,53 @@ h1{
   text-align: center;
 }
 
-.big-project {
-  width: 96%;
+.work-examples {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+  width: 100%;
+
+  
+}
+
+.link-image{
+  display: flex;
+  justify-content: center;
+  height:auto;
+  overflow: hidden;
+}
+
+.link-image2{
+  display: inline-block;
+  width: 90%;
+  height:auto;
+  overflow: hidden;}
+
+#big-project {
+  width: 98%;
   height: 450px;
-  padding: 20px;
+  border: 5px solid  rgb(133, 66, 66);
 
 }
  
 .projects{
-  width: 48%;
+  width: 95%;
   height: 200px;
-  margin: 0;
-  padding:5px;
+  margin: 5px;
+  border: 5px solid  rgb(133, 66, 66);
+  
+
 }
+
+ 
+
 footer{
-  width:100%
+  width:100%;
+  height:100px;
 }
+
 figure{
   margin :20px
 }
@@ -230,18 +265,24 @@ figure{
 
 .contact-info{
   display: flex; 
+  flex-wrap: wrap;
+  align-content: flex-end;
+  justify-content: center;
   padding: 10px;
+  list-style: none;
+  height:100px
 }
 
-.contact-me{
+.contact-info li a{
   padding:10px;
   padding-bottom: 2px;
-  margin: 25px;
   border-bottom: black;
   border-style: solid;
   border-width:0 0 3px 0;
   list-style: none;
-  width:fit-content
+  width:fit-content;
+  text-decoration: none;
+  margin:25px
 }
 
 
